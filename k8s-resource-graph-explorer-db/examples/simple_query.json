@@ -1,0 +1,3 @@
+{
+    "query_string": "?[api, kind, namespace, name] := *resource{api, kind, namespace, name}"
+}
