@@ -111,13 +111,13 @@ resource {
 
 Expected result format: `?[api, kind, namespace, name]`.
 
-There's an example in [simple_query.json](./k8s-resource-graph-explorer-db/simple_query.json)
+There's an example in [simple_query.json](./k8s-resource-graph-explorer-db/examples/simple_query.json)
 
 ### `/v1/query/edges`
 
 Expected result format: `?[from, to, label]` where from and to are resources (see resource query API) and label is a string.
 
-There's an example in [edge_query.jsonnet](./k8s-resource-graph-explorer-db/edge_query.jsonnet).
+There's an example in [edge_query.jsonnet](./k8s-resource-graph-explorer-db/examples/edge_query.jsonnet).
 
 TODO: add query param with a list of `resource`s to reference inside the query string for filtering.
 
